@@ -33,7 +33,7 @@ export default function Project() {
         
         {/* Add more project cards here */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-          <img src={stillWorking} alt="Project 2" className="w-full h-64 object-cover object-center" />
+          <img src='https://media.licdn.com/dms/image/D5622AQHIp5LBz71PtQ/feedshare-shrink_1280/0/1718744004108?e=1721865600&v=beta&t=g3RsfiAKofDiGBpDmSnx-J6LDIsFhlbCZsDnZm7zpJs' alt="Project 2" className="w-full h-64 object-cover object-center" />
           <div className="p-4">
             <h3 className="text-xl font-bold mb-2">Buisness Directory</h3>
             <p className="text-gray-700 mb-4">A business directory app is a collection of all the businesses nearby in Kharar, Mohali, and Punjab, where users can contact them as per their requirements.</p>
