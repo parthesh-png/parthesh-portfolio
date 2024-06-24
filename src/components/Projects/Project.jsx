@@ -37,7 +37,7 @@ export default function Project() {
           <div className="p-4">
             <h3 className="text-xl font-bold mb-2">Buisness Directory</h3>
             <p className="text-gray-700 mb-4">A business directory app is a collection of all the businesses nearby in Kharar, Mohali, and Punjab, where users can contact them as per their requirements.</p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" href='https://drive.google.com/file/d/1B21V1BGmQMy4Obyydl5XX7FG86nlM26V/view' target='_blank'>
               View Project
             </button>
           </div>
