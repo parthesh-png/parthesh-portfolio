@@ -1,5 +1,5 @@
 import React from 'react';
-import myimage from "../../img/myimage.png";
+import about from '../../img/about.jpg'; // Ensure the path is correct
 
 export default function About() {
     return (
@@ -9,24 +9,22 @@ export default function About() {
                     {/* Photo section */}
                     <div className="lg:w-1/2">
                         <img
-                            src={myimage}
+                            src={about}
                             alt="Profile"
                             className="w-full rounded-lg"
                         />
                     </div>
                     {/* Text content section */}
-                    <div className="lg:w-1/2">
+                    <div className="lg:w-1/2 mt-8 lg:mt-0 lg:pl-12">
                         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                            Hi there! I'm Ravi Shankar Singh, also known as Ravvviii
+                            Hi there! I'm Parthesh Singh,
                         </h2>
                         <p className="text-lg text-gray-700 mb-4">
-                            I'm currently a 6th-semester B.E. CSE student at Chandigarh University, where I'm passionate about exploring the vast world of technology and its applications.
+                            I'm currently a 4th-semester B.E. CSE student at Rungta College, where I'm passionate about exploring the vast world of technology and its applications.
                         </p>
+                       
                         <p className="text-lg text-gray-700 mb-4">
-                            My journey in the tech world has led me to work on exciting projects like E-janausadhi, where I'm involved in developing a platform to help people order generic medicines online from Paradhamnatri Jan Ausadhi Kendra. It's rewarding to contribute to projects that have a positive impact on people's lives.
-                        </p>
-                        <p className="text-lg text-gray-700 mb-4">
-                            With advanced knowledge in React, HTML/CSS, Python, and C++, I'm always eager to dive into new technologies and expand my skill set. I believe in the power of continuous learning and innovation to drive progress.
+                            With advanced knowledge in  Java and C++, I'm always eager to dive into new technologies and expand my skill set. I believe in the power of continuous learning and innovation to drive progress.
                         </p>
                         <p className="text-lg text-gray-700 mb-4">
                             Outside of the digital realm, you can find me indulging in my hobbies. I'm an avid gamer, and I also have a deep love for plantation and farming-related activities. There's something fulfilling about nurturing and growing things, whether it's virtual worlds or real-life plants.

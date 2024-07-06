@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../img/logo.png';
+import about from '../../img/about.jpg'; // Ensure the path is correct
+
 
 export default function Footer() {
     return (
-        <footer className="bg-white border-t border-gray-200">
+        <footer className="bg-white border-t border-gray-200 mt-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <img
-                                src={logo}
+                                src={about}
                                 className="h-16 rounded-full"
                                 alt="Logo"
                             />
@@ -33,7 +34,7 @@ export default function Footer() {
                                     <Link to="/projects" className="hover:text-gray-900">Projects</Link>
                                 </li>
                                 <li>
-                                    <Link to="https://github.com/ravvviii" className="hover:text-gray-900">Github</Link>
+                                    <Link to="https://github.com/parthesh-png" className="hover:text-gray-900">Github</Link>
                                 </li>
                             </ul>
                         </div>
@@ -41,7 +42,7 @@ export default function Footer() {
                             <h2 className="text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
                             <ul className="text-gray-500">
                                 <li>
-                                    <a href="https://github.com/ravvviii" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900">Github</a>
+                                    <a href="https://github.com/parthesh-png" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900">Github</a>
                                 </li>
                                 <li>
                                     <Link to="https://twitter.com/Ravvviii01"  target='_blank' className="hover:text-gray-900">Twitter</Link>
@@ -65,7 +66,7 @@ export default function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2024
-                        <a href="#" className="hover:text-gray-900">Ravi Shankar Singh</a>. All Rights Reserved.
+                        <a href="#" className="hover:text-gray-900"> Parthesh Singh</a>. All Rights Reserved.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <Link to="https://www.facebook.com/profile.php?id=100022459727878" target='_blank' className="text-gray-500 hover:text-gray-900">

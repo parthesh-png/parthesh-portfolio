@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../../img/logo.png';
+import about from '../../img/about.jpg'; // Ensure the path is correct
+
 
 export default function Header() {
     return (
@@ -9,7 +10,7 @@ export default function Header() {
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
                         <img
-                            src={logo}
+                            src={about}
                             className="mr-3 h-12 rounded-3xl"
                             alt="Logo"
                         />
@@ -70,7 +71,7 @@ export default function Header() {
                             </li>
                             <li>
                                 <a
-                                    href="https://github.com/ravvviii"
+                                    href="https://github.com/parthesh-png"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="block py-2 pr-4 pl-3 duration-200 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0"
